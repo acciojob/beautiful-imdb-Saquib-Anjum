@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+body{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column
+	
+}
+.moviePic{
+	height:100%;width:100%;opacity:1px;
+}
+.first-div{
+	width:90vw;
+	height:50vh;
+}
+.second-div{
+	position:relative;
+	width:100vw;
+}
+.movieDetail{
+	position:absolute;
+	top:1px;
+	width:90%;
+	text-align:center;
+	font-size:24px;
+}
